@@ -1,0 +1,17 @@
+Package: mcc
+Title: Modal Clustering for Categorical Data
+Version: 0.1.0
+Authors@R: 
+    c(person("Noemi", "Corsini", email = "corsini.noemi97@gmail.com", role = c("aut", "cre")),
+    person("Giovanna", "Menardi", role = "aut"))
+Description: Implementation of modal clustering for categorical data as introduced by 
+    Corsini and Menardi (2025).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    igraph,
+    dplyr,
+    mclust
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
