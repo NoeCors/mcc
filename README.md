@@ -23,11 +23,12 @@ The method is suitable for datasets with a stong dependency structure, a high as
 You can install the package directly from GitHub using the `remotes` package:
 
 ```r
-# Install remotes if you don't have it
-install.packages("remotes")
+# Install devtools if you don't have it
+install.packages("devtools")
 
 # Install mcc from GitHub
-remotes::install_github("NoeCors/mcc")
+library(devtools)
+install_github("NoeCors/mcc")
 ```
 
 ## Usage
